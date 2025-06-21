@@ -89,7 +89,8 @@ SimpleSwap is a decentralized exchange (DEX) smart contract built on Ethereum th
 
 ## Events
 ```
-The SimpleSwap contract emits events for all major operations, allowing off-chain systems to track contract activity. Here are the detailed explanations:
+The SimpleSwap contract emits events for all major operations, allowing off-chain systems to track contract activity. 
+Here are the detailed explanations:
 ```
 ### AddLiquidity Event
 ```solidity
