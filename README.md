@@ -32,7 +32,7 @@ Solidity_TP3
 6. [Events](#events)
 7. [Security Considerations](#security-considerations)
 8. [License](#license)
-9. [Contact InformationLicense](#contact-information)
+9. [Contact](#contact)
 
 ## Files Structure
 ```
@@ -212,7 +212,7 @@ MIT License
 
 <hr>
 
-## Contact Information
+## Contact
 
  <h4> 🔭 About me : </h4>
 
