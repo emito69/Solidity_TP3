@@ -31,6 +31,7 @@ Solidity_TP3
 5. [Events](#events)
 6. [Security Considerations](#security-considerations)
 7. [License](#license)
+8. [Contact InformationLicense](#contact-information)
 
 ## Contract Overview
 ```
@@ -184,9 +185,6 @@ MIT License
 <hr>
 <h6 align="center"> "El blockchain no es solo tecnología, es una revolución en la forma como intercambiamos valor y confianza." - Anónimo.</h6>
 
-
-
-
 <hr>
 <div align="center">
  <h4> 🛠 Lenguages & Tools : </h4>
@@ -197,6 +195,9 @@ MIT License
 </div>
 
 <hr>
+
+## Contact Information
+
  <h4> 🔭 About me : </h4>
 
 - 📝  I am an Instrumentation and Control engineer who constantly trains to keep up with new technologies.
