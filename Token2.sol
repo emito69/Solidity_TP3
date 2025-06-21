@@ -5,7 +5,7 @@ pragma solidity ^0.8.27;
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
-contract Token1 is ERC20, Ownable {
+contract Token2 is ERC20, Ownable {
     constructor() ERC20("Token2", "TK2") Ownable(msg.sender) {
         _mint(msg.sender, 999*(10**18));
         approve(address(msg.sender), 999*(10**18)); // approve owner
