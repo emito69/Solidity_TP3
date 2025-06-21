@@ -24,14 +24,29 @@ Solidity_TP3
 </div>
 
 ## Table of Contents
-1. [Contract Overview](#contract-overview)
-2. [Key Features](#key-features)
-3. [Core Components](#core-components)
-4. [Technical Implementation](#technical-implementation)
-5. [Events](#events)
-6. [Security Considerations](#security-considerations)
-7. [License](#license)
-8. [Contact InformationLicense](#contact-information)
+1. [Files Structure](#files-structure)
+2. [Contract Overview](#contract-overview)
+3. [Key Features](#key-features)
+4. [Core Components](#core-components)
+5. [Technical Implementation](#technical-implementation)
+6. [Events](#events)
+7. [Security Considerations](#security-considerations)
+8. [License](#license)
+9. [Contact InformationLicense](#contact-information)
+
+## Files Structure
+```
+- SimpleSwap.sol:
+  It is the main file of the smart contract. Implements all requiered functions for the swap exchange.
+
+- LiquidityToken.sol:
+  Liquidity token contract file where the class is defined and implemented. It implements an ERC20 standar interface.
+  It is used by SimpleSwap to instance each pool LiquidityToken.
+
+- Token1.sol / Token2.sol:
+  ERC20 token contract files where the class is defined and implemented. They implements an ERC20 standar interface.
+  They are used ass Test Tokens.
+```
 
 ## Contract Overview
 ```
