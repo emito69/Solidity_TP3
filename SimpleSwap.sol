@@ -166,16 +166,13 @@ contract SimpleSwap is Ownable {
             
         }else {
             // min(amountA/reserveA, amountB/reserveB) * total L 
+            tempStruct.ratio1 = (tempStruct.amountA * liqTokensData[key].totalSupply()) / tempStruct.reserveA;
+            tempStruct.ratio2 = (tempStruct.amountB * liqTokensData[key].totalSupply()) / tempStruct.reserveB;
 
-            //uint256 ratio1 = amountA/reserveA;
-            tempStruct.ratio1 = tempStruct.amountA/tempStruct.reserveA;
-            //uint256 ratio2 = amountB/reserveB;
-            tempStruct.ratio2 = tempStruct.amountB/tempStruct.reserveB;
-            //uint256 liqTemp;
             if (tempStruct.ratio1 <= tempStruct.ratio2) {
-                tempStruct.liqTemp = tempStruct.ratio1 * liqTokensData[key].totalSupply();
+                tempStruct.liqTemp = tempStruct.ratio1;
             } else{
-                tempStruct.liqTemp = tempStruct.ratio2 * liqTokensData[key].totalSupply();
+                tempStruct.liqTemp = tempStruct.ratio2;
             }
         }
         
