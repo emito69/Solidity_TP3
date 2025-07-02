@@ -316,7 +316,7 @@ contract SimpleSwap is Ownable {
         
         //bool areTokens = (isToken[tokenA] && isToken[tokenB]);
         //require(areTokens, "Tokens address not existing in contract");
-        price = 1e18 * tokensData[tokenB].balanceOf(address(this)) / tokensData[tokenA].balanceOf(address(this));  // Spot Price (Token A in terms of Token B) = reservesB/reservesA
+        price = ( 1e18 * tokensData[tokenB].balanceOf(address(this)) )/ tokensData[tokenA].balanceOf(address(this));  // Spot Price (Token A in terms of Token B) = reservesB/reservesA
         return price;  // * 1e18 required in the Verification COntract
 
     }
