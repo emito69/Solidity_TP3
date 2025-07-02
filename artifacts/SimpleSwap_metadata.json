@@ -562,11 +562,11 @@
 			]
 		},
 		"SimpleSwap.sol": {
-			"keccak256": "0xd1689022bec9059038a6b486c9ecae0255c4bb7da7ca6d068d8626ae9e308020",
+			"keccak256": "0x6bf0f267cb779a2e106ebe773ee80aaf32a5743486b5116185c8cef88f2d09cc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b317f1f6469f7e2cd0e65bfad4744a70773cdf0f1166269a592b5e0e6b3b21e3",
-				"dweb:/ipfs/QmR7yLaNgNo1AsHfxsm8azTts4sxgK8XaGo2L8bCvn9LLd"
+				"bzz-raw://3d75ef70f8c55043730f1c77d77273ca2a22e3ede3b09df744abe1b7f40c9235",
+				"dweb:/ipfs/QmfJRHAyXVCEz3d1T6U6Xn9LGiQZrAQVu5YUBR46K56XXs"
 			]
 		}
 	},
